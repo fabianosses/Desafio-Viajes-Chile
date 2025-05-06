@@ -11,6 +11,6 @@ body {
     font-family: Roboto;
 }
 
-.navbar {
-    background-color: red;
-}
+.nav-link {
+    color: white; /* Cambiar a tu color deseado */
+  }
