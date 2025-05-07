@@ -10,9 +10,14 @@
 body {
     font-family: Roboto;
     color: white;
+    background-color: black;
 }
 
 img {
     width: 30px;
+}
+
+section {
+    background-color: black;
 }
 
