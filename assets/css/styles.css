@@ -9,8 +9,10 @@
 
 body {
     font-family: Roboto;
+    color: white;
 }
 
-.nav-link {
-    color: white; /* Cambiar a tu color deseado */
-  }
+img {
+    width: 30px;
+}
+

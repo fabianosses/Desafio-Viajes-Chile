@@ -16,29 +16,22 @@
     <header>
 
         <!--Navbar-->
-        <nav class="navbar fixed-top navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar w/ text</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                </ul>
-                <span class="navbar-text">
-                    Navbar text with an inline element
-                </span>
+        <nav class="navbar fixed-top">
+            <div class="container-fluid justify-content-around  align-items-center">
+                <div class="col-4">
+                    <a class="nav-link active" aria-current="page" href="#"><img src="assets/img/viajes.svg" alt=""> Viajes Chile</a>
+                </div>
+                <div class="col-4">
+                    <ul class="list-group list-group-horizontal hstack gap-3">
+                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="nav-link" href="#">Quienes Somos</a>
+                        <a class="nav-link" href="#">Destacado</a>
+                        <a class="nav-link" href="#">Contacto</a>
+                    </ul>
                 </div>
             </div>
+        </nav>
+                                                   
         </nav>
     </header>
     
@@ -67,6 +60,37 @@
             </button>
         </div>
     </section>
+
+    <!--cards-->
+    <section>
+        <div class="card-group">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="row">
         <details>
             <summary>Hacer clic para ver más información</summary>
