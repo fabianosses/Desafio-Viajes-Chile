@@ -22,7 +22,7 @@ section {
 }
 
 .card {
-    background-color:cyan;
+    background-color:deepskyblue;
 }
 
 .card-img-top {
@@ -40,4 +40,24 @@ img {
 
 h2 {
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.btn {
+    color: white;
+    background-color: deepskyblue;
+}
+
+footer .navbar {
+    background-color:deepskyblue;
+    text-align: center;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+i {
+    font-size: 30px;
 }
