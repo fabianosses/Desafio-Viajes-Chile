@@ -25,16 +25,13 @@ section {
     background-color:deepskyblue;
 }
 
-.card-img-top {
+.mx-auto {
     width: 250px;
     height: 200px;
 }
 
-.card-text {
-    color: white;
-}
 
-img {
+.card-text {
     color: white;
 }
 
