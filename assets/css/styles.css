@@ -8,57 +8,63 @@
 }
 
 body {
-    font-family: Roboto;
-    color: white;
-    background-color: black;
+    font-family: Roboto;    /*define fuente de letra */
+    color: white;         /*define color en letras de todo el cuerpo*/
+    background-color: black; /*define color de fondo a todo el cuerpo*/
 }
 
 img {
-    width: 30px;
+    width: 30px; /*agranda imagen de ícono en navbar */
+}
+
+@media (max-width: 768px) { /* Oculta en pantallas menores a 768px */
+
+.presentacion {
+    display: none; /* Oculta el párrafo */
+}
 }
 
 .icon {
-    background-color: deepskyblue;
+    background-color: deepskyblue; /*color de fondo de ícono de sección presentación*/
 }
 
 section {
-    background-color: black;
+    background-color: black; /*color de fondo de todas las secciones*/
 }
 
 .card {
-    background-color:deepskyblue;
+    background-color:deepskyblue; /*color de fondo de solo cards*/
 }
 
-.mx-auto {
-    width: 250px;
-    height: 200px;
+.card-img-top {
+    width: 100%; /*ocupa todo el ancho de card*/
+    height: 200px; /*define altura de imagen en card*/
 }
-
 
 .card-text {
-    color: white;
+    color: white; /*define color de texto en cuerpo de card*/
 }
 
 h2 {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    text-align: center; /*centra texto*/
+    margin-top: 20px; /*agrega margen superior*/
+    margin-bottom: 0px; /*elimina margen inferior*/
 }
 
 .btn {
-    color: white;
-    background-color: deepskyblue;
+    color: white; /*define texto blanco en botón*/
+    background-color: deepskyblue; /*define color de fondo */
 }
 
 footer .navbar {
-    background-color:deepskyblue;
-    text-align: center;
+    background-color:deepskyblue; /* define color de fondo de footer*/
+    text-align: center; /*alinea texto al centro de contenedores*/
 }
 
 .navbar-brand {
-    color: white;
+    color: white; /*define color de íconos y texto de footer*/
 }
 
 i {
-    font-size: 30px;
+    font-size: 30px; /*define tamaño de íconos de footer*/
 }
