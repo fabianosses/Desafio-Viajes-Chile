@@ -17,6 +17,10 @@ img {
     width: 30px; /*agranda imagen de ícono en navbar */
 }
 
+button.navbar-toggler {
+    color: white; /* Cambia el color a blanco */
+   }
+
 @media (max-width: 768px) { /* Oculta en pantallas menores a 768px */
 
 .presentacion {
@@ -49,6 +53,10 @@ h2 {
     text-align: center; /*centra texto*/
     margin-top: 20px; /*agrega margen superior*/
     margin-bottom: 0px; /*elimina margen inferior*/
+}
+
+.mensaje {
+    height: 200px;
 }
 
 .btn {
