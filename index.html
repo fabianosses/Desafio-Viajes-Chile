@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/9a76d912c8.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="assets/js/main.js" defer></script>
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Desafio Viajes Chile</title>
@@ -16,6 +17,11 @@
 <body>
 
     <header>
+
+        <!--tag-inicio-de-página-->
+        <div id="inicio">
+        </div>
+
         <!--Navbar--> 
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
             <div class="container-fluid justify-content-between  text-end">
@@ -29,16 +35,16 @@
                     <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                                <a class="nav-link" aria-current="page" href="#inicio">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Quienes Somos</a>
+                                <a class="nav-link" href="#quienes_somos">Quienes Somos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Destacados</a>
+                                <a class="nav-link" href="#destacados">Destacados</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contacto</a>
+                                <a class="nav-link" href="#contacto">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -82,9 +88,11 @@
         <section class="presentacion">
                 <!--Título-h2-¿Quienes somos?-->
             <section>
-                <h2 class="container py-3 border-bottom border-secondary-subtle">
+                <div id="quienes_somos">
+                    <h2 class="container py-3 border-bottom border-secondary-subtle">
                     ¿QUIENES SOMOS?
-                </h2>
+                    </h2>
+                </div>
             </section>
 
             <!--grilla-de-3-cards-->
@@ -121,9 +129,11 @@
 
         <!--Título-h2-Destacados-->
         <section>
-            <h2 class="container py-3 border-bottom border-secondary-subtle">
+            <div id="destacados">
+                <h2 class="container py-3 border-bottom border-secondary-subtle">
                 DESTACADOS
-            </h2>
+                </h2>
+            </div>
         </section>
 
         <!--grilla-de-4-cards-->
@@ -166,9 +176,12 @@
 
         <!--Título-h2-Contacto-->
         <section>
-            <h2 class="container py-3 border-bottom border-secondary-subtle">
+            <div id="contacto">
+                <h2 class="container py-3 border-bottom border-secondary-subtle">
                 CONTACTO
             </h2>
+            </div>
+            
         </section>
 
         <!--Ingreso-de-datos-->
@@ -197,13 +210,13 @@
         <nav class="navbar sticky-bottom mt-5">
             <div class="container-fluid justify-content-between py-3">
                 <div class="col-4">
-                    <a class="navbar-brand" href="#">VIAJES CHILE</a>
+                    <a class="navbar-brand" href="#inicio">VIAJES CHILE</a>
                 </div>
                 <div class="col-6 justify-content-md-center hstack gap-3">
-                    <i class="fa-brands fa-square-github"></i>
-                    <i class="fa-brands fa-linkedin"></i>
-                    <i class="fa-brands fa-square-twitter"></i>
-                    <i class="fa-brands fa-square-facebook"></i>
+                    <a href="https://github.com/" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://x.com/" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
                 </div>
             </div>
         </nav>

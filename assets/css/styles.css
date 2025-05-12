@@ -73,6 +73,7 @@ footer .navbar {
     color: white; /*define color de íconos y texto de footer*/
 }
 
-i {
-    font-size: 30px; /*define tamaño de íconos de footer*/
+.fa-brands {
+    font-size: 30px; /* define tamaño de íconos de redes sociales */
+    color: white; /* define color de íconos de redes sociales */
 }
